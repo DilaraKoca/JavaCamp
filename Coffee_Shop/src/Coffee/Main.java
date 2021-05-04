@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String args[]) {
 		// TODO Auto-generated method stub
 		baseCustomerManager customerManager = new starbucksCustomerManager(new mernisServiceAdapter());	
-		customerManager.save(new Customer(1,"Dilara","Koca",LocalDate.of(1998, 7, 14),"52675586778"));
+		customerManager.save(new Customer(1,"Dilara","Kara",LocalDate.of(1998, 3, 14),"85795******"));
 		/*Customer customer=new Customer(1,"Engin","Demirog",1986,"28861478508");
 		customerManager.save(customer);*/
 	}
